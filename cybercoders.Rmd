@@ -206,10 +206,174 @@ cyberCoders =
     invisible(posts)
   }
 
-dataScience <- cyberCoders("Data Scienctist")
+dataScience <- cyberCoders("Data Scientist")
 skillSet = sort(table(unlist(lapply(dataScience, `[[`, "skills"))),
                 decreasing = TRUE)
-skillSet[skillSet >= 2]
+WordSet = sort(table(unlist(lapply(dataScience, `[[`, "words"))),
+                decreasing = TRUE)
+LocationSet = sort(table(unlist(lapply(dataScience, `[[`, "Location"))),
+                decreasing = TRUE)
+SalarySet = sort(table(unlist(lapply(dataScience, `[[`, "Salary"))),
+                decreasing = TRUE)
+Post_DateSet = sort(table(unlist(lapply(dataScience, `[[`, "Post_Date"))),
+                decreasing = TRUE)
+write.csv(skillSet,"rawskillSet.csv")
+write.csv(WordSet,"rawWordSet.csv")
+write.csv(LocationSet,"rawLocationSet.csv")
+write.csv(SalarySet,"rawSalarySet.csv")
+skillSet<-skillSet[skillSet >= 2]
+WordSet<-WordSet[WordSet >= 10]
+LocationSet<-LocationSet[LocationSet >= 2]
+SalarySet<-SalarySet[SalarySet >= 2]
+Post_DateSet<-Post_DateSet[Post_DateSet >= 2]
+
+SalarySet<-SalarySet[-4]
+SalarySet<-SalarySet[-1]
+WordSet<-WordSet[-165]
+WordSet<-WordSet[-163]
+WordSet<-WordSet[-162]
+WordSet<-WordSet[-161]
+WordSet<-WordSet[-159]
+WordSet<-WordSet[-158]
+WordSet<-WordSet[-157]
+WordSet<-WordSet[-156]
+WordSet<-WordSet[-155]
+WordSet<-WordSet[-154]
+WordSet<-WordSet[-153]
+WordSet<-WordSet[-151]
+WordSet<-WordSet[-150]
+WordSet<-WordSet[-149]
+WordSet<-WordSet[-148]
+WordSet<-WordSet[-147]
+WordSet<-WordSet[-146]
+WordSet<-WordSet[-145]
+WordSet<-WordSet[-144]
+WordSet<-WordSet[-143]
+WordSet<-WordSet[-141]
+WordSet<-WordSet[-138]
+WordSet<-WordSet[-136]
+WordSet<-WordSet[-135]
+WordSet<-WordSet[-134]
+WordSet<-WordSet[-133]
+WordSet<-WordSet[-132]
+WordSet<-WordSet[-131]
+WordSet<-WordSet[-130]
+WordSet<-WordSet[-129]
+WordSet<-WordSet[-128]
+WordSet<-WordSet[-127]
+WordSet<-WordSet[-126]
+WordSet<-WordSet[-125]
+WordSet<-WordSet[-124]
+WordSet<-WordSet[-123]
+WordSet<-WordSet[-122]
+WordSet<-WordSet[-121]
+WordSet<-WordSet[-120]
+WordSet<-WordSet[-119]
+WordSet<-WordSet[-117]
+WordSet<-WordSet[-116]
+WordSet<-WordSet[-115]
+WordSet<-WordSet[-114]
+WordSet<-WordSet[-113]
+WordSet<-WordSet[-112]
+WordSet<-WordSet[-110]
+WordSet<-WordSet[-109]
+WordSet<-WordSet[-108]
+WordSet<-WordSet[-107]
+WordSet<-WordSet[-106]
+WordSet<-WordSet[-105]
+WordSet<-WordSet[-104]
+WordSet<-WordSet[-103]
+WordSet<-WordSet[-102]
+WordSet<-WordSet[-101]
+WordSet<-WordSet[-100]
+WordSet<-WordSet[-99]
+WordSet<-WordSet[-98]
+WordSet<-WordSet[-97]
+WordSet<-WordSet[-95]
+WordSet<-WordSet[-94]
+WordSet<-WordSet[-93]
+WordSet<-WordSet[-92]
+WordSet<-WordSet[-91]
+WordSet<-WordSet[-90]
+WordSet<-WordSet[-89]
+WordSet<-WordSet[-88]
+WordSet<-WordSet[-87]
+WordSet<-WordSet[-86]
+WordSet<-WordSet[-85]
+WordSet<-WordSet[-83]
+WordSet<-WordSet[-82]
+WordSet<-WordSet[-81]
+WordSet<-WordSet[-80]
+WordSet<-WordSet[-79]
+WordSet<-WordSet[-78]
+WordSet<-WordSet[-77]
+WordSet<-WordSet[-76]
+WordSet<-WordSet[-75]
+WordSet<-WordSet[-74]
+WordSet<-WordSet[-73]
+WordSet<-WordSet[-72]
+WordSet<-WordSet[-71]
+WordSet<-WordSet[-70]
+WordSet<-WordSet[-69]
+WordSet<-WordSet[-68]
+WordSet<-WordSet[-66]
+WordSet<-WordSet[-65]
+WordSet<-WordSet[-64]
+WordSet<-WordSet[-63]
+WordSet<-WordSet[-62]
+WordSet<-WordSet[-61]
+WordSet<-WordSet[-59]
+WordSet<-WordSet[-58]
+WordSet<-WordSet[-57]
+WordSet<-WordSet[-54]
+WordSet<-WordSet[-53]
+WordSet<-WordSet[-52]
+WordSet<-WordSet[-51]
+WordSet<-WordSet[-50]
+WordSet<-WordSet[-49]
+WordSet<-WordSet[-48]
+WordSet<-WordSet[-47]
+WordSet<-WordSet[-46]
+WordSet<-WordSet[-45]
+WordSet<-WordSet[-44]
+WordSet<-WordSet[-42]
+WordSet<-WordSet[-41]
+WordSet<-WordSet[-40]
+WordSet<-WordSet[-39]
+WordSet<-WordSet[-36]
+WordSet<-WordSet[-35]
+WordSet<-WordSet[-34]
+WordSet<-WordSet[-33]
+WordSet<-WordSet[-31]
+WordSet<-WordSet[-29]
+WordSet<-WordSet[-28]
+WordSet<-WordSet[-26]
+WordSet<-WordSet[-25]
+WordSet<-WordSet[-22]
+WordSet<-WordSet[-21]
+WordSet<-WordSet[-20]
+WordSet<-WordSet[-18]
+WordSet<-WordSet[-17]
+WordSet<-WordSet[-16]
+WordSet<-WordSet[-15]
+WordSet<-WordSet[-14]
+WordSet<-WordSet[-13]
+WordSet<-WordSet[-9]
+WordSet<-WordSet[-8]
+WordSet<-WordSet[-7]
+WordSet<-WordSet[-6]
+WordSet<-WordSet[-5]
+WordSet<-WordSet[-4]
+WordSet<-WordSet[-3]
+WordSet<-WordSet[-2]
+skillSet
+WordSet
+LocationSet
+SalarySet
+write.csv(skillSet,"cleanskillSet.csv")
+write.csv(WordSet,"cleanWordSet.csv")
+write.csv(LocationSet,"cleanLocationSet.csv")
+write.csv(SalarySet,"cleanSalarySet.csv")
 ```
 
 #Analysis - Skills
@@ -217,5 +381,9 @@ skillSet[skillSet >= 2]
 A simple way to visualize all the skills with respect to their frequency is to use a word cloud.
 
 ```{r}
+print("skill sets")
 wordcloud(names(skillSet),skillSet,scale = c(3,1),max.words = 25,colors=brewer.pal(8, "Dark2"))
+print("word sets")
+wordcloud(names(WordSet),WordSet,scale = c(3,1),max.words = 25,colors=brewer.pal(8, "Dark2"))
+
 ```

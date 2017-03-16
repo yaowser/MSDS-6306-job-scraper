@@ -1,0 +1,235 @@
+"","Var1","Freq"
+"1","Machine Learning",63
+"2","Python",61
+"3","Data Mining",30
+"4","Hadoop",29
+"5","R",25
+"6","SQL",21
+"7","Java",14
+"8","SPARK",14
+"9","Data Science",13
+"10","Algorithms",10
+"11","Scala",9
+"12","Algorithm Development",7
+"13","Deep Learning",7
+"14","Machine Learning algorithms",7
+"15","Statistical Modeling",7
+"16","Data Analysis",6
+"17","Data Scientist",6
+"18","NLP",6
+"19","pandas",6
+"20","Tableau",6
+"21","AWS",5
+"22","Big Data",5
+"23","numpy",5
+"24","PhD",5
+"25","Apache Spark",4
+"26","Bayesian Inference",4
+"27","Data Analytics",4
+"28","Data Visualization",4
+"29","mongodb",4
+"30","neural networks",4
+"31","Predictive Modeling",4
+"32","Python, Scala, or Java",4
+"33","Python/R",4
+"34","SAS",4
+"35","scikit.learn",4
+"36","Statistics",4
+"37","Virtual Environments",4
+"38","BI Reporting",3
+"39","BI Reporting Tools",3
+"40","Business Objects",3
+"41","C/C++",3
+"42","Congos",3
+"43","elasticsearch",3
+"44","Hive",3
+"45","Jupyter",3
+"46","Kafka",3
+"47","Mapreduce",3
+"48","Micro Strategy",3
+"49","Networking",3
+"50","OBIEE",3
+"51","Online advertising",3
+"52","Random Forest",3
+"53","Security",3
+"54","Agile Framework with Atlassian (OR Similar)",2
+"55","Analytics Experience (Financial Industry a plus)",2
+"56","Analyzing Large Data Sets",2
+"57","Artificial Intelligence",2
+"58","Basic Statistics and Data Analysis",2
+"59","Bayesian Modeling",2
+"60","Bayesian Networks",2
+"61","C++",2
+"62","Cluster Analysis",2
+"63","Computer Science Degree",2
+"64","Computer Vision",2
+"65","d3js",2
+"66","Data Ingestion and Processing",2
+"67","Data Manipulation",2
+"68","Data science (from industry)",2
+"69","Distributed Frameworks",2
+"70","Financial Statements",2
+"71","Graph Analytics",2
+"72","lead",2
+"73","Linux",2
+"74","Markov Chains",2
+"75","matplotlib",2
+"76","Natural Language Processing",2
+"77","NoSQL Databases",2
+"78","Open Source Software",2
+"79","Personalization",2
+"80","Ph.D",2
+"81","Phenomenal written and oral communication",2
+"82","Principal",2
+"83","Prior teaching experience (not essential)",2
+"84","R/Matlab",2
+"85","Raw Data Analysis",2
+"86","Regression analysis",2
+"87","Research Scientist",2
+"88","Ruby",2
+"89","senior",2
+"90","SQL Databases",2
+"91","teaching experience",2
+"92","Unclean/Semi- Structured/Unstructured Data",2
+"93","accelometers",1
+"94","Advanced Statistical Analysis",1
+"95","Analytics",1
+"96","Applied Mathematics",1
+"97","Artificial intelligence (AI)",1
+"98","ASCP",1
+"99","Bayesian Model",1
+"100","Big Data (Hadoop/MapReduce/Hive/Pig)",1
+"101","Big Data / Cloud computing",1
+"102","Bioinformatics",1
+"103","C/C++/Java",1
+"104","C++/C#",1
+"105","Caffe",1
+"106","Causal Inference",1
+"107","Cellular/molecular Immunology",1
+"108","Chemicals/Toxicology",1
+"109","Clinical Laboratory Scientist",1
+"110","Clustering",1
+"111","Clustering & Classification",1
+"112","CNN/RNN",1
+"113","Computer Science",1
+"114","Confocal/Total internal reflection",1
+"115","Creativity",1
+"116","Credit Modeling",1
+"117","Curiosity",1
+"118","Cyber Security",1
+"119","D3",1
+"120","Data Analytics & Visualization",1
+"121","Data Collection",1
+"122","Data Compilation",1
+"123","Data Manipulation/ Mining/ Modeling",1
+"124","Data pipeline architecture",1
+"125","data strategy",1
+"126","data structures",1
+"127","Data visualization experience with D3",1
+"128","distributed computing",1
+"129","Electricity",1
+"130","ETL BI, and data pipelines",1
+"131","experiment design",1
+"132","Experiment Execution",1
+"133","Factor Models",1
+"134","Federal Based Engineering",1
+"135","Field Analysis",1
+"136","Food",1
+"137","Game Theory",1
+"138","Genome Sequencing",1
+"139","GPU Programming",1
+"140","gyros",1
+"141","hadoop mapreduce",1
+"142","Hadoop/ Hive/ Cassandra/ Storm/ or Spark",1
+"143","Hadoop/Spark/ H20",1
+"144","Hands On Team Leadership",1
+"145","Healthcare Data",1
+"146","image processing software",1
+"147","immunology principals",1
+"148","Informatics",1
+"149","Information Retrieval",1
+"150","Java or C#",1
+"151","Java or C++",1
+"152","Java SpringSource",1
+"153","Javascrip",1
+"154","k-means clustering",1
+"155","kNN",1
+"156","Large Data Sets",1
+"157","Leadership",1
+"158","Life Sciences . Pharmaceutical Industry",1
+"159","Management/Leadership",1
+"160","Manufacturing Data",1
+"161","Markov models",1
+"162","Mathematical/statistical modeling",1
+"163","Matlab",1
+"164","Matlab/Labview/Igor/Excel",1
+"165","MATLAB/SAS",1
+"166","Microbiology",1
+"167","Mission Critical Systems",1
+"168","Modeling & Simulations",1
+"169","MS in Computer Science",1
+"170","MX",1
+"171","MySQL",1
+"172","Natural Language Processing (NLP)",1
+"173","Neo4j",1
+"174","Neural Nets",1
+"175","Novel Machine Learning",1
+"176","Numpy/Spicy/Pandas",1
+"177","Optimization",1
+"178","Optimization Algorithms",1
+"179","PATH Data",1
+"180","Pathway/Network analysis",1
+"181","Pattern Recognition",1
+"182","Pharmaceuticals",1
+"183","PhD preferred",1
+"184","PHP",1
+"185","Power Algorithms",1
+"186","Predictive Analystics",1
+"187","Predictive Analytics",1
+"188","Predictive Modeling Concepts",1
+"189","Predictive Modeling Techniques",1
+"190","Presto",1
+"191","Probability and Statistics",1
+"192","Probability Theory and Mathematical Optimization",1
+"193","Proposals and Reports",1
+"194","Proprietary Trading",1
+"195","Python or R",1
+"196","Python Scientific Stack (NumPy/Pandas/SciPy/etc.)",1
+"197","Python/Perl",1
+"198","Python/R/SAS",1
+"199","QPs Single-Molecule Sequencing Technology",1
+"200","Quantitative Approach",1
+"201","Quantitative Finance",1
+"202","Recommendation Systems",1
+"203","Redshift",1
+"204","regression",1
+"205","Regulatory T cells",1
+"206","Research Data",1
+"207","Rest-based APIs",1
+"208","Robotics",1
+"209","S-Plus",1
+"210","SAS / SPSS / R",1
+"211","Security Data",1
+"212","single-molecule optical detection systems",1
+"213","Software Development",1
+"214","SPSS",1
+"215","SQL Server",1
+"216","SQL/R/MATLAB/Python",1
+"217","Staffing",1
+"218","Statistical Analysis",1
+"219","Statistical Analysis & Programming",1
+"220","Streaming",1
+"221","Support Vector Machines",1
+"222","Synthetic and Biological Nanopores",1
+"223","Systematic Trading",1
+"224","taxicology",1
+"225","TCP/IP",1
+"226","Tensorflow",1
+"227","Text-Mining",1
+"228","Text Mining",1
+"229","Toxicology",1
+"230","TS/SCI Polygraph clearance",1
+"231","Unix",1
+"232","UNIX/Linux environments",1
+"233","Unsecured Lending Credit Experience",1
+"234","Vivo Models",1
